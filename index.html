@@ -4,47 +4,74 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>KOROLEVATEAM | Центр художественной и воздушной гимнастики</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/bootstrap-reboot.min.css">
+    <link rel="stylesheet" href="./css/bootstrap-utilities.min.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/bootstrap-grid.min.css">
 </head>
 <body>
     <header>
         <div class="container">
-            <a href="/"><img src="" alt="KOROLEVATEAM"></a>
+            <a href="/"><img src="./img/logo.svg" alt="KOROLEVATEAM"></a>
             <button><span class="visually-hidden">Меню навигации</span></button>
         </div>
     </header>
+    <nav>
+        <ul class="nav__links">
+            <li class="nav__link-container"><a href="#about" class="nav__link">О нас</a></li>
+            <li class="nav__link-container"><a href="#whyus" class="nav__link">Почему мы?</a></li>
+            <li class="nav__link-container"><a href="#actions" class="nav__link">Набор</a></li>
+            <li class="nav__link-container"><a href="#directions" class="nav__link">Наши направления</a></li>
+            <li class="nav__link-container"><a href="#vacancy" class="nav__link">Работа у нас</a></li>
+            <li class="nav__link-container"><a href="#teachers" class="nav__link">Преподаватели</a></li>
+            <li class="nav__link-container"><a href="#gallery" class="nav__link">Фотогалерея</a></li>
+            <li class="nav__link-container"><a href="#news" class="nav__link">Новости</a></li>
+        </ul>
+    </nav>
     <main>
         <section class="hero">
-            <div class="container">
-                
+            <div class="container col">
+                <h1>Центр художественной и воздушной гимнастики «KOROLEVATEAM»</h1>
+                <p>Через новый взгляд на обучение спорту, развиваем ключевые навыки для достижения успеха на российской и международной арене.</p>
+                <a href="#feedback">Записаться</a>
+                <div class="hero__info">
+                    <span class="col">Москва, ул. Марксисткая, д. 2</span>
+                    <a class="hero__phone" href="tel:+79067203232">+7(906)-720-32-32</a>
+                    <div class="hero__social">
+                        <a href="" class="col"><img src="./img/VK_Logo.svg" alt="Группа ВК"></a>
+                        <a href="" class="col"><img src="./img/Telegram_Logo.svg" alt="Телеграм Канал"></a>
+                    </div>
+                </div>
             </div>
         </section>
-        <section class="about">
+        <section id="about">
             <div class="container">
     
             </div>
         </section>
-        <section class="whyus">
+        <section id="whyus">
             <div class="container">
     
             </div>
         </section>
-        <div class="actions">
+        <div id="actions">
             <ul>
                 <li><section><h3></h3><span></span><a href="/"></a></section></li>
                 <li><section><h3></h3><span></span><a href="/"></a></section></li>
             </ul>
         </div>
-        <section class="directions">
+        <section id="directions">
             <div class="container">
     
             </div>
         </section>
-        <div class="vacancy">
+        <div id="vacancy">
             <section class="container">
                 
             </section>
         </div>
-        <section class="teachers">
+        <section id="teachers">
             <div class="container">
                 <ul>
                     <li class="teacher">
@@ -70,19 +97,19 @@
                 </ul>
             </div>
         </section>
-        <section class="gallery">
+        <section id="gallery">
             <div class="container">
                 <h2>Фотогалерея</h2>
             </div>
         </section>
-        <section class="news">
+        <section id="news">
             <div class="container">
                 <h2>Новости</h2>
             </div>
         </section>
     </main>
     <footer>
-        <section class="container feedback">
+        <section class="container" id="feedback">
             <h2>Обратная связь</h2>
             <form action="">
                 <h3>Остались вопросы?</h3>
