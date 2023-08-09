@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="./css/bootstrap-utilities.min.css">
     <link rel="stylesheet" href="./css/bootstrap.min.css">
     <link rel="stylesheet" href="./css/bootstrap-grid.min.css">
+    <script src="./js/unpkg.com_masonry-layout@4.2.2_dist_masonry.pkgd.min.js"></script>
 </head>
 <body>
     <header>
@@ -171,6 +172,14 @@
         <section id="gallery">
             <div class="container">
                 <h2>Фотогалерея</h2>
+                <ul class="gallery__grid-masonry">
+                    <li class="gallery__grid-item"><img class="gallery__grid-pic" src="./img/content/photos/1.png" alt="Групповые занятия художественной гимнастикой для детей"></li>
+                    <li class="gallery__grid-item gallery__grid-sizer"><img class="gallery__grid-pic" src="./img/content/photos/2.png" alt="Соревнования по художественной гимнастике для детей"></li>
+                    <li class="gallery__grid-item"><img class="gallery__grid-pic" src="./img/content/photos/3.png" alt="Растяжка занятия гимнастикой для детей"></li>
+                    <li class="gallery__grid-item"><img class="gallery__grid-pic" src="./img/content/photos/4.png" alt="Воздушная гимнастика для детей"></li>
+                    <li class="gallery__grid-item"><img class="gallery__grid-pic" src="./img/content/photos/5.png" alt="Занятия художественной гимнастикой для детей"> </li>
+                </ul>
+                <a href="">Смотреть всю галерею</a>
             </div>
         </section>
         <section id="news">
@@ -209,4 +218,7 @@
         </section>
     </footer>
 </body>
+
+<script src="./js/gallery-grid.js"></script> 
+
 </html>
