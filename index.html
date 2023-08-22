@@ -9,16 +9,17 @@
     <link rel="stylesheet" href="./css/bootstrap-utilities.min.css">
     <link rel="stylesheet" href="./css/bootstrap.min.css">
     <link rel="stylesheet" href="./css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="./css/base.css">
     <script src="./js/unpkg.com_masonry-layout@4.2.2_dist_masonry.pkgd.min.js"></script>
 </head>
 <body>
     <header>
-        <div class="container">
+        <div class="container py-4  ">
             <a href="/"><img src="./img/logo.svg" alt="KOROLEVATEAM"></a>
             <button><span class="visually-hidden">Меню навигации</span></button>
         </div>
     </header>
-    <nav>
+    <nav style="display: none;" class="container text-end">
         <ul class="nav__links">
             <li class="nav__link-container"><a href="#about" class="nav__link">О нас</a></li>
             <li class="nav__link-container"><a href="#whyus" class="nav__link">Почему мы?</a></li>
@@ -31,23 +32,25 @@
         </ul>
     </nav>
     <main>
-        <section class="hero">
-            <div class="container col">
-                <h1>Центр художественной и воздушной гимнастики «KOROLEVATEAM»</h1>
-                <p>Через новый взгляд на обучение спорту, развиваем ключевые навыки для достижения успеха на российской и международной арене.</p>
-                <a href="#feedback">Записаться</a>
-                <div class="hero__info">
-                    <span class="col">Москва, ул. Марксисткая, д. 2</span>
-                    <a class="hero__phone" href="tel:+79067203232">+7(906)-720-32-32</a>
-                    <div class="hero__social">
-                        <a href="" class="col"><img src="./img/VK_Logo.svg" alt="Группа ВК"></a>
-                        <a href="" class="col"><img src="./img/Telegram_Logo.svg" alt="Телеграм Канал"></a>
+        <section class="hero min-vh-100">
+            <div class="container pt-5">
+                <div class="col-4 pt-5">
+                    <h1>Центр художественной и воздушной гимнастики «KOROLEVATEAM»</h1>
+                    <p>Через новый взгляд на обучение спорту, развиваем ключевые навыки для достижения успеха на российской и международной арене.</p>
+                    <a href="https://wa.me/79267713253"  target="_blank">Записаться</a>
+                    <div class="hero__info">
+                        <span class="col">Москва, ул. Марксисткая, д. 2</span>
+                        <a class="hero__phone" href="tel:+79067203232">+7(906)-720-32-32</a>
+                        <div class="hero__social">
+                            <a href="" class="col"><img src="./img/VK_Logo.svg" alt="Группа ВК"></a>
+                            <a href="" class="col"><img src="./img/Telegram_Logo.svg" alt="Телеграм Канал"></a>
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
         <section id="about" class="container">
-            <div class="row">
+            <div class="row py-5">
                 <div class="col">
                     <h1 class="ttl">О нас</h1>
                     <p>Центр KOROLEVATEAM — молодая, но профессиональная команда мастеров спорта. Наша основная задача — качественное спортивное развитие всех воспитанников центра.</p>
@@ -61,14 +64,46 @@
         </section>
         <section id="whyus">
             <div class="container">
-
+                <h2 class="ttl">Почему мы?</h2>
+                <div class="row">
+                    <div class="col">
+                        <details>
+                            <summary>Здоровье — на первом месте! </summary>
+                            <p>Обучение у нас позволяет привить девочкам здоровый образ жизни, укрепить иммунитет, повысить работоспособность. Еще мы помогаем воспитать положительные качества характера - ответственность, силу воли, дисциплину и целеустремленность. Командная работа – еще один важный навык, который юные гимнастки легко развивают с первых занятий в KOROLEVATEAM.</p>
+                        </details>
+                        <details>
+                            <summary>Индивидуальный подход</summary>
+                            <p>Обучение проходит в малых группах — не более 12 человек. Программа разрабатывается с учетом особенностей участников: от уровня подготовки до хронологического и функционального возраста гимнастки. Все тренировки в KOROLEVATEAM увлекательны и насыщены. Для самых маленьких занятия проходят в игровой форме.</p>
+                        </details>
+                        <details>
+                            <summary>Авторская методика развития гибкости</summary>
+                            <p>В KOROLEVATEAM обучаются самые гибкие дети!</p>
+                        </details>
+                        <details>
+                            <summary>Тренер — это прежде всего наставник</summary>
+                            <p>В центре разработана и эффективно применяется система мотивации и психологической поддержки детей.</p>
+                        </details>
+                        <details>
+                            <summary>Команда профессионалов</summary>
+                            <p>Наши тренеры - мастера спорта с профильным образованием, ежегодно повышающие квалификацию на семинарах и мастер-классах специалистов международного класса.</p>
+                        </details>
+                        <details>
+                            <summary>Просторный зал</summary>
+                            <p>Просторный, светлый, с высокими потолками тренировочный зал, обеспечивающий комфортные условия для занятий художественной и воздушной гимнастикой, хореографией и акробатикой. Во всех центрах залы оборудован  коврами, шведскими стенками и станками. Имеются раздевалки для учениц и зоны для ожидания.</p>
+                        </details>
+                    </div>
+                    <div class="col">
+                        <img src="" alt="">
+                    </div>
+                </div>
             </div>
         </section>
         <div id="actions">
-            <ul>
-                <li><section><h3></h3><span></span><a href="/"></a></section></li>
-                <li><section><h3></h3><span></span><a href="/"></a></section></li>
-            </ul>
+            <section class="col text-center">
+                <h3>Новый сезон 2023-2024</h3>
+                <span>Набираем девочек от 3-х лет</span><br>
+                <a href="https://wa.me/79267713253" target="_blank">Подробнее</a>
+            </section>
         </div>
         <section id="directions">
             <div class="container">
@@ -111,7 +146,7 @@
                     <div class="col">
                         <h2>Хотите работать у нас?</h2>
                         <p>Отправляйте свое резюме на почту:
-                            <a href="mailto:korolevateam@mail.ru">korolevateam@mail.ru</a></p>
+                        <a href="mailto:korolevateam@mail.ru">korolevateam@mail.ru</a></p>
                     </div>
                     <div class="col">
                         <img src="./img/content/vacancy.png" alt="Вакансии тренер художественной гимнастики">
@@ -125,11 +160,7 @@
                     <li class="teacher row">
                         <div class="col">
                             <h3>Королева Екатерина Александровна</h3>
-                            <p>Мастер спорта России по художественной гимнастике. Многократный победитель 
-                                и призер турниров и открытых первенств 
-                                по художественной гимнастике. 
-                                Чемпионка мира по воздушной гимнастике
-                                по версии WAAPA (2016, Рига) </p>
+                            <p>Мастер спорта России по художественной гимнастике. Многократный победитель и призер турниров и открытых первенств по художественной гимнастике. Чемпионка мира по воздушной гимнастике по версии WAAPA (2016, Рига) </p>
                             <span>Стаж тренерской деятельности: 10 лет</span>
                         </div>
                         <div class="col">
@@ -138,9 +169,9 @@
                     </li>
                     <li class="teacher row">
                         <div class="col">
-                            <h3>Жданова Елена</h3>
-                            <p></p>
-                            <span></span>
+                            <h3>Жданова Елена Анатольевна</h3>
+                            <p>Закончила Академию русского балета имени А.Я. Вагановой. Работала в Марийском государственном академическом театре оперы и балета имени Эрика Сапаева. Направление классическая хореография, спортивная хореография.</p>
+                            <span>Стаж тренерской деятельности: 24 года</span>
                         </div>
                         <div class="col">
                             <img src="./img/content/trainers/Жданова.png" alt="Жданова Елена" class="trainer__photo">
@@ -148,9 +179,9 @@
                     </li>
                     <li class="teacher row">
                         <div class="col">
-                            <h3>Семенов Максим</h3>
-                            <p></p>
-                            <span></span>
+                            <h3>Семенов Максим Олегович</h3>
+                            <p>Руководитель отделения воздушной гимнастики. Мастер спорта по прыжковой акробатике, Президент IFAS. Судья Российских и Международных чемпионатов по воздушной гимнастике. Действующий презентер мастер классов по воздушной гимнастике в России и Европе.</p>
+                            <span>Стаж тренерской деятельности: 10 лет</span>
                         </div>
                         <div class="col">
                             <img src="./img/content/trainers/Семенов.png" alt="Семенов Максим" class="trainer__photo">
@@ -179,74 +210,87 @@
                     <li class="gallery__grid-item"><img class="gallery__grid-pic" src="./img/content/photos/4.png" alt="Воздушная гимнастика для детей"></li>
                     <li class="gallery__grid-item"><img class="gallery__grid-pic" src="./img/content/photos/5.png" alt="Занятия художественной гимнастикой для детей"> </li>
                 </ul>
-                <a href="">Смотреть всю галерею</a>
+                <!-- <a href="">Смотреть всю галерею</a> -->
             </div>
         </section>
         <section id="news">
             <div class="container">
                 <h2>Новости</h2>
-                <ul class="news__container row row-cols-2 gx-0">
+                <ul class="news__container gap-5">
                     <li class="news__item col">
                         <section class="news__section col">
                             <img src="./img/content/news.png" alt="новости" class="news__img">
-                            <h3 class="news__ttl">Название новости</h3>
-                            <p class="news__txt">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                            <div class="row"><a href="" class="news__link">Читать полностью...</a><span class="news__date">10.08.2023</span></div>
+                            <h3 class="news__ttl">Сборы в самом разгаре</h3>
+                            <p class="news__txt">В этом году учебно-тренировочные сборы по художественной и воздушной гимнастике команды KOROLEVATEAM проходят в Сочи. Мероприятие стартовало 12 июля и продлится до 23 июля.</p>
+                            <div class="row">
+                                <!-- <a href="" class="news__link">Читать полностью...</a> -->
+                                <span class="news__date">10.08.2023</span>
+                            </div>
                         </section>
                     </li>
                     <li class="news__item col">
                         <section class="news__section col">
                             <img src="./img/content/news.png" alt="новости" class="news__img">
-                            <h3 class="news__ttl">Название новости</h3>
-                            <p class="news__txt">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                            <div class="row"><a href="" class="news__link">Читать полностью...</a><span class="news__date">10.08.2023</span></div>
+                            <h3 class="news__ttl">В Сочи прошел мастер-класс по воздушной гимнастике</h3>
+                            <p class="news__txt">16 июля главный тренер нашего центра Екатерина Королева провела мастер-класс по воздушной гимнастике, направленый на развитие гибкости воспитанниц Академии воздушной гимнастики г. Сочи.</p>
+                            <div class="row">
+                                <!-- <a href="" class="news__link">Читать полностью...</a> -->
+                                <span class="news__date">10.08.2023</span>
+                            </div>
                         </section>
                     </li>
                     <li class="news__item col">
                         <section class="news__section col">
                             <img src="./img/content/news.png" alt="новости" class="news__img">
-                            <h3 class="news__ttl">Название новости</h3>
-                            <p class="news__txt">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                            <div class="row"><a href="" class="news__link">Читать полностью...</a><span class="news__date">10.08.2023</span></div>
+                            <h3 class="news__ttl">KOROLEVATEAM на выезде</h3>
+                            <p class="news__txt">Вот и подошли к концу наши летние учебно-тренировочные сборы 2023! В этом году они проходили с 12 по 23 июля в городе Сочи. В сборах приняли участие около 70 спортсменок со всей России и других стран по двум направлениям: художественная и воздушная гимнастика.</p>
+                            <div class="row">
+                                <!-- <a href="" class="news__link">Читать полностью...</a> -->
+                                <span class="news__date">10.08.2023</span>
+                            </div>
                         </section>
                     </li>
                     <li class="news__item col">
                         <section class="news__section col">
                             <img src="./img/content/news.png" alt="новости" class="news__img">
-                            <h3 class="news__ttl">Название новости</h3>
-                            <p class="news__txt">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                            <div class="row"><a href="" class="news__link">Читать полностью...</a><span class="news__date">10.08.2023</span></div>
+                            <h3 class="news__ttl">Подготовка к новому соревновательному сезону идет полным ходом</h3>
+                            <p class="news__txt">После непродолжительных каникул у художественных гимнасток нашего центра возобновились тренировки, в ходе которых тренерский штаб и гимнастки ищут новые возможности совершенствования спортивного мастерства.</p>
+                            <div class="row">
+                                <!-- <a href="" class="news__link">Читать полностью...</a> -->
+                                <span class="news__date">10.08.2023</span>
+                            </div>
                         </section>
                     </li>
                 </ul>
             </div>
         </section>
+        <section>
+            <div class="container">
+                <div class="col">
+                    <h2 class="ttl">Контакы</h2>
+                    <ul>
+                        <li>
+                            <h3>Адрес </h3>
+                            <span>Ул. Касаткина д.3</span>
+                        </li>
+                        <li>
+                            <h3>Часы работы</h3>
+                            <span>9.00 - 18.00 пн-пт</span>
+                        </li>
+                        <li>
+                            <h3>Как с нами связаться</h3>
+                            <a href="tel:+79267713253">+7 (926) 771-32-53</a>
+                            <a href="mailto:korolevateam@mail.ru">korolevateam@mail.ru</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A43a644db0a30589529f58ebd1a0f411d59a2b1d8504f3435d9cfbce0c8ea3b02&amp;source=constructor" width="100%" height="400" frameborder="0"></iframe>
+                </div>
+            </div>
+        </section>
     </main>
     <footer>
-        <section class="container" id="feedback">
-            <h2>Обратная связь</h2>
-            <form action="">
-                <h3>Остались вопросы?</h3>
-                <p>Оставьте свои контактные данные, и мы свяжемся с вами</p>
-                <label htmlFor="name">
-                    <span>Ваше имя</span>
-                    <input type="text" id="name"/>
-                </label>
-                <label htmlFor="phone">
-                    <span>Ваш телефон</span>
-                    <input type="text" name="phone" id="phone" />
-                </label>
-                <label htmlFor="email">
-                    <span>Ваш телефон</span>
-                    <input type="text" name="email" id="email" />
-                </label>
-                <label htmlFor="message">
-                    <span>Текст сообщения</span>
-                    <textarea name="message" id="message" cols="30" rows="10"></textarea>
-                </label>
-                <button>Отправить</button>
-            </form>
-        </section>
         <section class="container">
 
         </section>

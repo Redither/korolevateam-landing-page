@@ -1,0 +1,17 @@
+header {
+    width: 100%;
+    position: absolute;
+    top: 0;
+}
+
+#actions {
+    background-image: url(../img/content/actions.png);
+    color: aliceblue;
+    padding: 40px;
+}
+.hero {
+    background-image: url(../img/content/hero_wide.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
