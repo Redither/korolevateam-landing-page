@@ -1,3 +1,14 @@
+:root {
+    --b-c--bgrd: #FBFBFC;
+    --b-c--grey: #d0cdce;
+    --b-c--dgrey: #505050;
+    --b-c--dark: #0F0F0F;
+    --b-c--orange: #DC601A;
+    --bg--d-dg: linear-gradient(to right, var(--b-c--dark), var(--b-c--dgrey))
+}
+body {
+    background-color: var(--b-c--bgrd);
+}
 header {
     width: 100%;
     position: absolute;
@@ -6,6 +17,8 @@ header {
 
 #actions {
     background-image: url(../img/content/actions.png);
+    background-repeat: no-repeat;
+    background-size: cover;
     color: aliceblue;
     padding: 40px;
 }
@@ -14,4 +27,40 @@ header {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+}
+.accordeon_pic {
+    display: flex;
+    position: relative;
+    width: 100%;
+} 
+.accordeon_img {
+    margin: auto 0 auto auto;
+    z-index: 2;
+}
+summary {
+    font-size: 24px;
+    list-style-image: url(../img/plus.svg);
+    transition: all .7s;
+}
+details[open] > summary {
+    list-style-image: url(../img/minus.svg);
+}
+details[open] > p {
+    margin: 20px auto 20px 4rem;
+    padding-left: 1rem;
+    border-left: 1px solid orange;
+}
+.kt-deco::before {
+    z-index: 1;
+    content: '-';
+    display: block;
+    width: 375px;
+    height: 375px;
+    background-image: url(../img/deco.png);
+    background-size: cover;
+    position: absolute;
+}
+.accordeon_pic.kt-deco::before {
+    top: -20%;
+    left: 10%;
 }
