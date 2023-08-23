@@ -102,3 +102,9 @@ legend {
     /* width: 100%; */
     object-fit: cover;
 }
+.hero {
+    background-image: url(../img/content/hero_wide.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
