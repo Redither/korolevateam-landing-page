@@ -1,8 +1,8 @@
-var elem = document.querySelector('.gallery__grid-masonry');
+var elem = document.querySelector('.gallery_grid-masonry');
 var msnry = new Masonry( elem, {
-  itemSelector: '.gallery__grid-item',
+  itemSelector: '.gallery_grid-item',
   percentPosition: true,
-  columnWidth: ".gallery__grid-item",
+  columnWidth: ".gallery_grid-item",
 //gutter: 20,
 //fitWidth: true,
 //   horizontalOrder: true

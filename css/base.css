@@ -205,3 +205,77 @@ details[open] > p {
     left: 0;
     right: -1000px;
 }
+.trainers_section-navbar {
+    display: none;
+}
+@media (min-width:768px) {
+.trainers_slider-container {
+    min-height: 470px;
+    margin-top: 40px;
+}
+.trainer_section-content {
+    max-width: 80%;
+}
+.trainer_section-info {
+    padding-right: 1em;
+    height: min-content;
+    margin: auto;
+}
+.trainer_section-heading {
+    position: relative;
+    width: 100%;
+    z-index: 10;
+    background-color: var(--b-c--background);
+}
+.trainer_section-ttl {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 30px;
+    color: var(--b-c--orange);
+    margin-bottom: 24px;
+}
+.trainers_section-navbar {
+    position: absolute;
+    top: 10em;
+    right: 0;
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    /* padding: 7px; */
+    /* margin: 20px 0; */
+    transition: all 0.3s ease-in;
+}
+.trainers_nav-button {
+    border: none;
+    outline: none;
+    background-color: transparent;
+    font-size: 24px;
+    line-height: 120%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: var(--b-c--dark);
+    padding: 0;
+}
+.trainers_nav-button:hover {
+    color: var(--b-c--orange);
+    transition: all 0.3s ease-in;
+}
+.active_trainer-tab {
+    color: var(--b-c--orange);
+}
+.active_trainer-tab:hover {
+    background-color: var(--b-c--blue);
+}
+.trainers_container {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    gap: 100vw;
+    transition: all 0.5s ease-in;
+}
+    /* .trainer_pic {
+        background-color: var(--b-c--orange);
+        border-radius: 100%;
+    } */
+}

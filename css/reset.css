@@ -88,17 +88,17 @@ legend {
 	display: block;
 }
 
-.gallery__grid-masonry {
+.gallery_grid-masonry {
     padding: 0;
     margin: 0;
 }
-.gallery__grid-item {
+.gallery_grid-item {
     max-width: 33.3333333333333%;
     width: 100%;
     padding: 10px;
     display: flex;
 }
-.gallery__grid-pic {
+.gallery_grid-pic {
     /* width: 100%; */
     object-fit: cover;
 }
