@@ -16,6 +16,9 @@ function toggletrainer(button) {
     trainersContainer.style.transform = transforme;
 }
 window.onload = function() {
+    if (window.innerWidth < 726) {
+        return
+    }
     let containerWidth = container.scrollWidth + 'px';
     trainerCards.forEach(card => { card.style.width = containerWidth});;
 }
