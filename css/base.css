@@ -54,6 +54,9 @@
     max-width: min-content;
     margin: auto;
 }
+.bth-orange, .btn-white, .btn-dark {
+    transition: all .3s;
+}
 .bth-orange {
     color: var(--b-c--orange);
     border: 1px solid var(--b-c--orange);
@@ -65,6 +68,18 @@
 .btn-dark {
     color: var(--b-c--dark);
     border: 1px solid var(--b-c--dark);
+}
+.bth-orange:hover {
+    color: var(--b-c--bgrd);
+    background-color: var(--b-c--orange);
+}
+.btn-white {
+    color: var(--b-c--orange);
+    background-color: var(--b-c--bgrd);
+}
+.btn-dark {
+    color: var(--b-c--bgrd);
+    background-color: var(--b-c--dark);
 }
 .ttl {
     font-family: 'Oranienbaum';
