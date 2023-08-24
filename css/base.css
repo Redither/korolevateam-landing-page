@@ -30,6 +30,14 @@
     background: -webkit-linear-gradient(90deg, rgba(15,15,15,1) 0%, rgba(15,15,15,1) 50%, rgba(208,205,206,1) 60%, rgba(208,205,206,1) 100%);
     background: linear-gradient(90deg, rgba(15,15,15,1) 0%, rgba(15,15,15,1) 50%, rgba(208,205,206,1) 60%, rgba(208,205,206,1) 100%);
 }
+.link-dark {
+    display: inline-block;
+    margin-bottom: 15px;
+    color: var(--b-c--dark);
+}
+.link-dark:hover {
+    color: var(--b-c--orange);
+}
 .bth-orange, .bth-white, .btn-dark {
     padding: 12px 60px;
     max-width: min-content;
@@ -80,7 +88,7 @@ body {
     overflow-x: hidden;
     background-color: var(--b-c--bgrd);
 }
-body, a, p {
+body, a, p, span {
     font-family: 'Raleway', sans-serif;
     font-style: normal;
     font-size: 18px;
