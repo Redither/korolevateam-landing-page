@@ -1,3 +1,4 @@
+@import url(./fonts.css);
 :root {
     --b-c--bgrd: #FBFBFC;
     --b-c--grey: #d0cdce;
@@ -6,7 +7,6 @@
     --b-c--orange: #DC601A;
     --bg--d-dg: linear-gradient(to right, var(--b-c--dark), var(--b-c--dgrey))
 }
-@import url(./fonts.css);
 @keyframes rotate{
     0%{
         -moz-transform: rotate(0deg);
@@ -52,22 +52,37 @@
     font-size: 48px;
     color: var(--b-c--dark);
 }
-h1 {
+.ttl_sub-orange {
+    color: var(--b-c--orange);
+    font-family: 'Raleway';
+    font-weight: 500;
+    font-size: 24px;
+    display: inline-block;
+    margin: 2rem auto 2rem 0;
+}
+.hero_ttl {
     font-family: 'Oranienbaum';
-    font-style: italic;
     font-size: 48px;
+    line-height: 108%;
     color: var(--b-c--orange);
 }
 .devise {
     font-family: 'Oranienbaum';
     font-size: 28px;
+    line-height: 102%;
+    display: inline-block;
+    margin-bottom: 3rem;
+    margin-top: 2rem;
     color: var(--b-c--orange);
 }
 body {
+    width: 100%;
+    overflow-x: hidden;
     background-color: var(--b-c--bgrd);
 }
 body, a, p {
-    font-family: 'Raleway' sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
     font-size: 18px;
 }
 header {
@@ -103,6 +118,7 @@ header {
     z-index: 2;
 }
 summary {
+    font-weight: 500;
     font-size: 24px;
     list-style-image: url(../img/plus.svg);
     transition: all .7s;
@@ -117,7 +133,7 @@ details[open] > p {
 }
 .kt-deco::before {
     z-index: 1;
-    content: '-';
+    content: ' ';
     display: block;
     width: 375px;
     height: 375px;
@@ -125,6 +141,7 @@ details[open] > p {
     background-size: cover;
     position: absolute;
     animation: rotate 10s linear infinite;
+    border-radius: 100%;
 }
 .accordeon_pic.kt-deco::before {
     top: -20%;
@@ -153,19 +170,38 @@ details[open] > p {
     left: 0%;
     top: 40%;
 }
+.dir_art-info p, .dir_air-info p {
+    width: 100%;
+}
+.hero_info p, .hero_info a, .dir_art-info a, .dir_air-info a, .dir_art-info p, .dir_air-info p {
+    display: inline-block;
+    margin: 1rem auto 1rem 0;
+}
 .vacancy_info {
     display: flex;
     flex-direction: column;
     vertical-align: middle;
     justify-content: center;
 }
-.vacancy_ttl {
+.vacancy_ttl, .sbory_ttl {
     color: var(--b-c--orange);
 }
-.vacancy_txt, .vacancy_txt a {
+.vacancy_txt, .vacancy_txt a, .sbory_info p {
     color: var(--b-c--bgrd);
     max-width: 454px;
 }
 .vacancy_txt a {
     text-decoration: underline;
+}
+.sbory_pic {
+    position: relative;
+}
+.sbory_img {
+    height: 100%;
+    width: auto;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: -1000px;
 }
