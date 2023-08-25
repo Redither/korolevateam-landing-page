@@ -146,6 +146,14 @@ footer {
 .footer_contacts * {
     color: var(--b-c--bgrd);
 }
+.footer_social ul {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+}
+.footer_social ul li {
+    /* display: ; */
+}
 #actions {
     position: relative;
     background-image: url(../img/content/actions.png);
