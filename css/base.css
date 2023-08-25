@@ -73,7 +73,7 @@
     color: var(--b-c--bgrd);
     background-color: var(--b-c--orange);
 }
-.btn-white {
+.btn-white:hover {
     color: var(--b-c--orange);
     background-color: var(--b-c--bgrd);
 }
@@ -93,6 +93,9 @@
     font-size: var(--fs--ttl-sub);
     display: inline-block;
     margin: 2rem auto 2rem 0;
+}
+.hero_info {
+    margin-top: 3em;
 }
 .hero_ttl {
     font-family: 'Oranienbaum';
@@ -402,5 +405,10 @@ details[open] > p {
     }
     .col-9 {
         width: 100%!important;
+    }
+    .logo {
+        max-width: 45px;
+        max-height: 45px;
+        object-fit: fill;
     }
 }
