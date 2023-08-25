@@ -62,7 +62,7 @@
             <div class="container py-5">
                 <h2 class="ttl mb-5">Почему мы?</h2>
                 <div class="Row mb-5">
-                    <div class="Col">
+                    <div class="Col accordeon_info">
                         <details class="mb-3" open>
                             <summary>Здоровье — на первом месте!</summary>
                             <p>Обучение у нас позволяет привить девочкам здоровый образ жизни, укрепить иммунитет, повысить работоспособность. Еще мы помогаем воспитать положительные качества характера - ответственность, силу воли, дисциплину и целеустремленность. Командная работа – еще один важный навык, который юные гимнастки легко развивают с первых занятий в KOROLEVATEAM.</p>
@@ -155,9 +155,9 @@
                     <h2 class="ttl trainers_section-ttl">Уникальный тренерский состав</h2>
                     <ul class="container trainers_section-navbar">
                         <li><button onclick="toggletrainer(this)" class="trainers_nav-button active_trainer-tab" value="0">Королева Екатерина</button></li>
-                        <li><button onclick="toggletrainer(this)" class="trainers_nav-button" value="1">Жданова Елена</button></li>
+                        <li><button onclick="toggletrainer(this)" class="trainers_nav-button" value="1">Фаракшина Айна</button></li>
                         <li><button onclick="toggletrainer(this)" class="trainers_nav-button" value="2">Семенов Максим</button></li>
-                        <li><button onclick="toggletrainer(this)" class="trainers_nav-button" value="3">Фаракшина Айна</button></li>
+                        <li><button onclick="toggletrainer(this)" class="trainers_nav-button" value="3">Жданова Елена</button></li>
                     </ul>
                 </div>
                 <div class="trainers_slider-container">
@@ -181,19 +181,18 @@
                             </section>
                         </li>
                         <li class="trainers_container-trainer">
-                            <section id="trainer_zhdanova" class="trainer_section container">
+                            <section id="trainer_ident" class="trainer_section container">
                                 <div class="Row trainer_section-content">
                                     <div class="Col trainer_section-info">
-                                        <h3 class="trainer_section-ttl">Жданова Елена Анатольевна</h3>
+                                        <h3 class="trainer_section-ttl">Фаракшина Айна Рустямовна</h3>
                                         <p class="trainer_section-txt">
-                                            Закончила Академию русского балета имени А.Я. Вагановой. Работала в Марийском государственном 
-                                            академическом театре оперы и балета имени Эрика Сапаева. Направление классическая хореография, 
-                                            спортивная хореография.
+                                            Мастер спорта России по художественной гимнастике. 3-х кратная чемпионка России, 
+                                            Чемпионка мира в командном зачете, Серебряный призёр Этапа Кубка Мира.
                                         </p>
-                                        <span>Стаж тренерской деятельности: 24 года</span>
+                                        <span>Стаж тренерской деятельности: 4 года</span>
                                     </div>
                                     <div class="Col trainer_pic">
-                                        <img src="./img/content/trainers/Жданова.png" alt="Жданова Елена Анатольевна" class="trainer_photo">
+                                        <img src="./img/content/trainers/Фаракшина.png" alt="Фаракшина Айна Рустямовна" class="trainer_photo">
                                     </div>
                                 </div>
                             </section>
@@ -217,18 +216,19 @@
                             </section>
                         </li>
                         <li class="trainers_container-trainer">
-                            <section id="trainer_ident" class="trainer_section container">
+                            <section id="trainer_zhdanova" class="trainer_section container">
                                 <div class="Row trainer_section-content">
                                     <div class="Col trainer_section-info">
-                                        <h3 class="trainer_section-ttl">Фаракшина Айна Рустямовна</h3>
+                                        <h3 class="trainer_section-ttl">Жданова Елена Анатольевна</h3>
                                         <p class="trainer_section-txt">
-                                            Мастер спорта России по художественной гимнастике. 3-х кратная чемпионка России, 
-                                            Чемпионка мира в командном зачете, Серебряный призёр Этапа Кубка Мира.
+                                            Закончила Академию русского балета имени А.Я. Вагановой. Работала в Марийском государственном 
+                                            академическом театре оперы и балета имени Эрика Сапаева. Направление классическая хореография, 
+                                            спортивная хореография.
                                         </p>
-                                        <span>Стаж тренерской деятельности: 4 года</span>
+                                        <span>Стаж тренерской деятельности: 24 года</span>
                                     </div>
                                     <div class="Col trainer_pic">
-                                        <img src="./img/content/trainers/Фаракшина.png" alt="Фаракшина Айна Рустямовна" class="trainer_photo">
+                                        <img src="./img/content/trainers/Жданова.png" alt="Жданова Елена Анатольевна" class="trainer_photo">
                                     </div>
                                 </div>
                             </section>
@@ -350,8 +350,16 @@
         </section>
     </main>
     <footer>
-        <section class="container">
-            
+        <section class="container py-5">
+            <div class="footer_logo">
+                <img src="./img/logo.svg" alt="KOROLEVATEAM">
+            </div>
+            <div class="footer_contacts">
+                <ul>
+                    <li><a href="tel:+79267713253" class="link-dark">+7 (926) 771-32-53</a></li>
+                    <li><a href="mailto:korolevateam@mail.ru" class="link-dark">korolevateam@mail.ru</a></li>
+                </ul>
+            </div>
         </section>
     </footer>
 </body>

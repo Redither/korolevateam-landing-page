@@ -124,6 +124,15 @@ header {
     position: absolute;
     top: 0;
 }
+footer {
+    background-color: var(--b-c--dark);
+}
+.footer_contacts {
+    margin-top: 3rem;
+}
+.footer_contacts * {
+    color: var(--b-c--bgrd);
+}
 #actions {
     position: relative;
     background-image: url(../img/content/actions.png);
@@ -262,8 +271,14 @@ details[open] > p {
         width: 375px;
         height: 375px;
     }
+    .accordeon_info {
+        max-width: 50%;
+    }
     .dir_air-pic {
         top: -8rem;
+    }
+    .dir_art-info, .dir_air-info {
+        max-width: 50%;
     }
     details[open] > p {
         margin: 20px auto 20px 4rem;
@@ -282,6 +297,7 @@ details[open] > p {
     padding-right: 1em;
     height: min-content;
     margin: auto;
+    max-width: 50%;
 }
 .trainer_section-heading {
     position: relative;
@@ -336,14 +352,25 @@ details[open] > p {
     gap: 100vw;
     transition: all 0.5s ease-in;
 }
-    /* .trainer_pic {
-        background-color: var(--b-c--orange);
-        border-radius: 100%;
-    } */
+    .sbory_info {
+        min-width: 46%;
+        margin-right: 3rem;
+    }
+    .sbory_pic {
+        width: 100%;
+    }
     .news_container {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         gap: 20px;
+    }
+    footer .container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .footer_contacts {
+        margin-top: 0%;
     }
 }
 @media (max-width:768px) {
