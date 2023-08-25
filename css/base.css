@@ -54,9 +54,9 @@
     max-width: min-content;
     margin: auto;
 }
-.bth-orange, .btn-white, .btn-dark {
+/* .bth-orange, .btn-white, .btn-dark {
     transition: all .3s;
-}
+} */
 .bth-orange {
     color: var(--b-c--orange);
     border: 1px solid var(--b-c--orange);
@@ -98,6 +98,16 @@
     font-family: 'Oranienbaum';
     font-size: var(--fs--ttl-main);
     line-height: 108%;
+    color: var(--b-c--orange);
+}
+.hero .container {
+    position: relative;
+}
+.hero_phone {
+    font-size: var(--fs--ttl-sub);
+    color: var(--b-c--dark);
+}
+.hero_phone:hover {
     color: var(--b-c--orange);
 }
 .devise {
@@ -266,6 +276,13 @@ details[open] > p {
     }
     .hero_info {
         max-width: 526px;
+        margin-top: 5em;
+    }
+    .hero_info-adress {
+        text-align: right;
+        position: absolute;
+        top: 1.5rem;
+        right: 0;
     }
     .kt-deco::before {
         width: 375px;
