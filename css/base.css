@@ -217,12 +217,6 @@ details[open] > p {
 .dir_art-pic img, .dir_air-pic img {
     z-index: 2;
 }
-.dir_art-info { 
-    order: 2;
-}
-.dir_art-pic {
-    order: 1;
-}
 .dir_art-pic.kt-deco::before {
     right: 20%;
     top: 0;
@@ -301,6 +295,12 @@ details[open] > p {
     }
     .accordeon_info {
         max-width: 50%;
+    }
+    .dir_art-info { 
+        order: 2;
+    }
+    .dir_art-pic {
+        order: 1;
     }
     .dir_air-pic {
         top: -8rem;
