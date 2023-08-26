@@ -435,6 +435,8 @@ details[open] > p {
         padding: 0;
     }
     .trainer_section-info {
+        padding-top: 3rem;
+        padding-bottom: 3rem;
         order: 2;
     }
     .trainer_pic {
