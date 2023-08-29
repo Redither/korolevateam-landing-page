@@ -107,3 +107,7 @@ legend {
     background-size: cover;
     background-position: center;
 }
+.visualy-hidden {
+    position: absolute;
+    left: -200vw;
+}
