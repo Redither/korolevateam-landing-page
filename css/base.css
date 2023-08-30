@@ -250,6 +250,7 @@ details[open] > p {
     flex-direction: column;
     vertical-align: middle;
     justify-content: center;
+    padding-right: 2em;
 }
 .vacancy_ttl, .sbory_ttl {
     color: var(--b-c--orange);
@@ -272,6 +273,7 @@ details[open] > p {
     bottom: 0;
     left: 0;
     right: -1000px;
+    object-fit: cover;
 }
 .trainers_section-navbar {
     display: none;
