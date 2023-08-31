@@ -102,7 +102,7 @@ legend {
     object-fit: cover;
 }
 .hero {
-    background-image: url(../img/content/hero_wide.webp);
+    background-image: url(../img/content/hero_mob.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -110,4 +110,19 @@ legend {
 .visualy-hidden {
     position: absolute;
     left: -200vw;
+}
+@media (min-width: 430px) {
+    .hero {
+        background-image: url(../img/content/hero_770.jpg);
+    }
+}
+@media (min-width: 770px) {
+    .hero {
+        background-image: url(../img/content/hero.jpg);
+    }
+}
+@media (min-width: 1460px) {
+    .hero {
+        background-image: url(../img/content/hero_wide.webp);
+    }
 }
