@@ -94,6 +94,13 @@
     display: inline-block;
     margin: 2rem auto 2rem 0;
 }
+.news_img {
+    max-height: 375px;
+    object-fit: cover;
+}
+.news_date {
+    margin: auto 0 auto auto;
+}
 .news_ttl {
     display: inline-block;
     margin-top: 1em;
