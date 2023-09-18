@@ -385,7 +385,51 @@ table, tbody {
     top: -4%;
     left: 3%;
 }
-
+.promo {
+    background-color: var(--b-c--grey);
+    border-bottom: 5px solid var(--b-c--orange);
+}
+.promo .container {
+    display: flex;
+    /* background-image: url(../img//content/promo.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: bottom right; */
+}
+.promo h1 {
+    display: inline-block;
+    margin: auto;
+    /* border: 2px solid var(--b-c--orange); */
+    /* width: 100%; */
+}
+.promo-info {
+    display: flex;
+    flex-direction: column;
+    gap: 5em;
+}
+.promo-info .container {
+    display: flex;
+    flex-direction: column;
+}
+.promo-contacts {
+    text-align: center;
+}
+.promo-contacts a{
+    color: var(--b-c--orange);
+}
+.promo-info .ttl {
+    color: var(--b-c--orange);
+    display: inline-block;
+    margin-bottom: 3rem;
+}
+.promo-info h3 {
+    display: inline-block;
+    margin-bottom: 2rem;
+}
+.promo-info_img {
+    position: relative;
+    /* top: -10em; */
+}
 @media (min-width:768px) {
     .Row {
         flex-direction: row;
