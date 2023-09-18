@@ -231,7 +231,7 @@ details[open] > p {
     background-position: center;
 }
 .accordeon_pic.kt-deco::before {
-    top: -39%;
+    top: -25%;
     left: 13%;
     background-size: 68%;
 }
@@ -452,6 +452,10 @@ table, tbody {
     }
     .accordeon_info {
         max-width: 50%;
+        min-width: 50%;
+    }
+    .accordeon_pic.kt-deco::before {
+        top: -39%;
     }
     .dir_art-info { 
         order: 2;
